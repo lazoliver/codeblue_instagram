@@ -121,6 +121,7 @@ input[type="url"]:placeholder{color:#666;}
 }
 nav{
     bottom: 0;
+    background-color: #fff;
     left: 0;
     right: 0;
     padding: 20px 16px 33px;
@@ -133,7 +134,7 @@ ul{
     justify-content: center;
 }
 li{
-    width: 45%;
+    width: 40%;
 }
 /* Botões */
 .btn{
@@ -153,6 +154,13 @@ li{
     color: #fff;
     background: #000;
 }
+/* Home */
+.home{
+    display: block;
+    background-image: url(../imagens/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 /* Logo */
 figure{
     display: flex;
@@ -162,5 +170,5 @@ figure{
 }
 h1{
     position: absolute;
-    top: 47%;
+    top: 40%;
 }
