@@ -131,10 +131,10 @@ nav{
 ul{
     display: flex;
     gap: 9px;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 li{
-    width: 40%;
+    width: 50%;
 }
 /* Botões */
 .btn{
