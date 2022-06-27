@@ -174,13 +174,29 @@ li{
     position: absolute;
     top: 40%;
 }
-/* Register */
-.register h2{
-    margin-top: 16px;
+/* Home - profile */
+.container figure{
+    bottom: 20%;
+    display: flex;
+    position: fixed;
 }
-.register h1{
+.container figure img{margin-right: 8px;}
+.container figure p:first-child{font: 700 13px/15px 'Roboto';}
+.container figure p:last-child{
+    color: #000000CC;
+    font: 400 11px/13px 'Roboto';
+}
+/* Header */
+.header h1{
     font: 400 36px/40px 'Comfortaa';
     margin: 32px 0;
+}
+.header h2{
+    margin-top: 16px;
+}
+.header h3{
+    font: 900 13px/16px 'Roboto';
+    padding-bottom: 24px;
 }
 /* Register - Form*/
 .form input{
