@@ -163,13 +163,21 @@ li{
     background-size: cover;
 }
 /* Logo */
-figure{
+.logo figure{
     display: flex;
     height: 100vh;
     justify-content: center;
     position: relative
 }
-h1{
+.logo h1{
     position: absolute;
     top: 40%;
+}
+/* Register */
+.register h2{
+    margin-top: 16px;
+}
+.register h1{
+    font: 400 36px/40px 'Comfortaa';
+    margin: 32px 0;
 }
