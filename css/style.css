@@ -127,6 +127,7 @@ nav{
     padding: 20px 16px 33px;
     position: fixed;
     width: 100%;
+    z-index: 999;
 }
 ul{
     display: flex;
