@@ -191,3 +191,11 @@ li{
     width: 100%;
 }
 .form input::placeholder{color: #000;}
+/* Sign Up */
+.form p{
+    font: 400 13px/18px 'Roboto';
+    margin-top: 32px;
+}
+.form p span{
+    text-decoration: underline;
+}
