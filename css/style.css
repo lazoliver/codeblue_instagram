@@ -118,7 +118,7 @@ input{box-sizing: border-box;}
 /* Container */
 .container{
     max-width: 100%;
-    margin: 0 16px;
+    padding: 0 16px;
 }
 nav{
     bottom: 0;
@@ -175,14 +175,14 @@ li{
     top: 40%;
 }
 /* Home - profile */
-.container figure{
+.home .container figure{
     bottom: 20%;
     display: flex;
     position: fixed;
 }
-.container figure img{margin-right: 8px;}
-.container figure p:first-child{font: 700 13px/15px 'Roboto';}
-.container figure p:last-child{
+.home .container figure img{margin-right: 8px;}
+.home .container figure p:first-child{font: 700 13px/15px 'Roboto';}
+.home .container figure p:last-child{
     color: #000000CC;
     font: 400 11px/13px 'Roboto';
 }
@@ -214,4 +214,8 @@ li{
 }
 .form p span{
     text-decoration: underline;
+}
+.new{
+    display: flex;
+    justify-content: center;
 }
