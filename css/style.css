@@ -112,12 +112,13 @@ input[type="text"]:placeholder,
 input[type="email"]:placeholder,
 input[type="tel"]:placeholder,
 input[type="search"]:placeholder,
-input[type="url"]:placeholder{color:#666;}
+input[type="url"]:placeholder{color:#000;}
+input{box-sizing: border-box;}
 /* Estilização */
 /* Container */
 .container{
     max-width: 100%;
-    padding: 0 16px;
+    margin: 0 16px;
 }
 nav{
     bottom: 0;
@@ -162,7 +163,7 @@ li{
     background-repeat: no-repeat;
     background-size: cover;
 }
-/* Logo */
+/* Home - Logo */
 .logo figure{
     display: flex;
     height: 100vh;
@@ -181,3 +182,12 @@ li{
     font: 400 36px/40px 'Comfortaa';
     margin: 32px 0;
 }
+/* Register - Form*/
+.form input{
+    border: 2px solid #000;
+    font: 400 15px/18px 'Roboto';
+    padding: 17px;
+    margin-bottom: 16px;
+    width: 100%;
+}
+.form input::placeholder{color: #000;}
